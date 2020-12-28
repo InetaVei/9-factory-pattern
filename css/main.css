@@ -1,0 +1,31 @@
+body,
+    body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    padding: 40px;
+    text-align: center;
+}
+
+form > * {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+    form > * + * {
+        margin-top: 20px;
+}
+.output {
+    display: inline-block;
+    width: 100%;
+    margin-top: 80px;
+    line-height: 50px;
+    font-size: 40px;
+    border: 5px dotted purple;
+}
